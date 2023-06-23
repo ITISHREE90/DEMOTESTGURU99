@@ -42,7 +42,7 @@ public class TestDeposit extends BaseTest {
         depositPage = new DepositPage(driver);
     }
 
-    @Test
+    @Test(priority=5)
     public void TC005_AddNewDepositSuccessfully() throws InterruptedException {
     
         loginPage.Login(UserName, Password);

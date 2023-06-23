@@ -34,7 +34,7 @@ public class TestLogin extends BaseTest {
         homePage = new HomePage(driver);
     }
     
-    @Test
+    @Test(priority=2)
     public void TC002_LoginUserSuccessfully() {
         loginPage.VerifyLoginPageAllElements();
         loginPage.Login(UserName, Password);

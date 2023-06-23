@@ -41,7 +41,7 @@ public class TestAccount extends BaseTest {
         accountPage = new AccountPage(driver);        
     }
 
-    @Test
+    @Test(priority=4)
     public void TC004_CreateNewAccountSuccessfully() throws InterruptedException {
     
         loginPage.Login(UserName, Password);

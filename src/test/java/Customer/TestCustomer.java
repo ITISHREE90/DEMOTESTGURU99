@@ -46,7 +46,7 @@ public class TestCustomer extends BaseTest {
         customerPage = new CustomerPage(driver);
     }
 
-    @Test
+    @Test(priority=3)
     public void TC003_CreateNewCustomerSuccessfully() throws InterruptedException {
 
         loginPage.Login(UserName, Password);
