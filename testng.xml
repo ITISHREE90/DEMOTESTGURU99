@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestGuru" configfailurepolicy="continue">
+	<test name="TestGuru99">
+		<classes>
+			<class name="SignUp.TestSignUp" />
+			<class name="Login.TestLogin" />
+			<class name="Customer.TestCustomer" />
+			<class name="Account.TestAccount" />
+			<class name="Deposit.TestDeposit" />
+		</classes>
+	</test>
+</suite>
